@@ -1,0 +1,382 @@
+
+[2025-03-05 02:51:10,206] INFO - Cloning from GitLab (bare): https://gitlab.com/Mr_Goldberg/goldberg_emulator
+[2025-03-05 02:51:13,911] INFO - Fetching all refs from GitLab...
+[2025-03-05 02:51:14,981] INFO - Local refs after fetch-all:
+[2025-03-05 02:51:15,028] INFO - 2a659043d3124172596c51076c7e1c8f33d759ea refs/heads/inventory_pr
+475342f0d8b2bd7eb0d93bd7cfdd61e3ae7cda24 refs/heads/master
+e67b12aa5e09e81817b4c2fd2fc9a9035e277d68 refs/heads/test_ci
+b72bd2973578aa65e83cfb42447621676038bf32 refs/tags/0.2.5
+320063c339c94b5c667deeb2bbb5a1878bc21b36 refs/tags/v0.2.2
+73e0d960d36e28755f25f5c17a8d6ea4da3fdb31 refs/tags/v0.2.3
+c4e0c855df1f8737b49edc428d91f04f8973ca28 refs/tags/v0.2.4
+[2025-03-05 02:51:15,345] ERROR - Failed to create GitHub repo 'test24': {"message":"Repository creation failed.","errors":[{"resource":"Repository","code":"custom","field":"name","message":"name already exists on this account"}],"documentation_url":"https://docs.github.com/rest/repos/repos#create-a-repository-for-the-authenticated-user","status":"422"}
+[2025-03-05 02:51:15,349] ERROR - Cannot proceed without GitHub repo creation.
+[2025-03-05 02:51:15,353] INFO - Removing local clone directory: temp_clone_test24_1741143070
+[2025-03-05 02:51:15,452] INFO - Folder temp_clone_test24_1741143070 successfully removed.
+[2025-03-05 02:51:15,453] WARNING - Migration did not complete successfully.
+[2025-03-05 02:51:15,453] INFO - Single migration completed: Failed
+[2025-03-05 02:51:31,866] INFO - Cloning from GitLab (bare): https://gitlab.com/Mr_Goldberg/goldberg_emulator
+[2025-03-05 02:51:35,399] INFO - Fetching all refs from GitLab...
+[2025-03-05 02:51:36,550] INFO - Local refs after fetch-all:
+[2025-03-05 02:51:36,591] INFO - 2a659043d3124172596c51076c7e1c8f33d759ea refs/heads/inventory_pr
+475342f0d8b2bd7eb0d93bd7cfdd61e3ae7cda24 refs/heads/master
+e67b12aa5e09e81817b4c2fd2fc9a9035e277d68 refs/heads/test_ci
+b72bd2973578aa65e83cfb42447621676038bf32 refs/tags/0.2.5
+320063c339c94b5c667deeb2bbb5a1878bc21b36 refs/tags/v0.2.2
+73e0d960d36e28755f25f5c17a8d6ea4da3fdb31 refs/tags/v0.2.3
+c4e0c855df1f8737b49edc428d91f04f8973ca28 refs/tags/v0.2.4
+[2025-03-05 02:51:37,581] INFO - GitHub repository 'test25' created successfully.
+[2025-03-05 02:51:37,692] INFO - Pushing all refs to GitHub (mirror push)...
+[2025-03-05 02:51:40,982] INFO - All refs pushed successfully.
+[2025-03-05 02:51:40,983] INFO - Copying GitLab releases to GitHub...
+[2025-03-05 02:51:41,393] INFO - Found 4 GitLab release(s). Creating them on GitHub...
+[2025-03-05 02:51:41,827] INFO - GitHub release created for tag '0.2.5' with name 'v0.2.5'.
+[2025-03-05 02:51:42,283] INFO - GitHub release created for tag 'v0.2.4' with name 'v0.2.4'.
+[2025-03-05 02:51:42,727] INFO - GitHub release created for tag 'v0.2.3' with name 'v0.2.3'.
+[2025-03-05 02:51:43,246] INFO - GitHub release created for tag 'v0.2.2' with name 'v0.2.2'.
+[2025-03-05 02:51:43,249] INFO - Updating repository settings for aaronshemtovit/test25...
+[2025-03-05 02:51:43,539] INFO - Repository settings updated for 'test25'.
+[2025-03-05 02:51:43,542] INFO - Repository 'test25' migrated successfully from GitLab to GitHub.
+[2025-03-05 02:51:43,545] INFO - Removing local clone directory: temp_clone_test25_1741143091
+[2025-03-05 02:51:43,647] INFO - Folder temp_clone_test25_1741143091 successfully removed.
+[2025-03-05 02:51:43,647] INFO - Single migration completed: Success
+[2025-03-05 02:55:27,557] INFO - Cloning from GitLab (bare): https://gitlab.com/Mr_Goldberg/goldberg_emulator
+[2025-03-05 02:55:31,588] INFO - Fetching all refs from GitLab...
+[2025-03-05 02:55:32,962] INFO - Local refs after fetch-all:
+[2025-03-05 02:55:33,009] INFO - 2a659043d3124172596c51076c7e1c8f33d759ea refs/heads/inventory_pr
+475342f0d8b2bd7eb0d93bd7cfdd61e3ae7cda24 refs/heads/master
+e67b12aa5e09e81817b4c2fd2fc9a9035e277d68 refs/heads/test_ci
+b72bd2973578aa65e83cfb42447621676038bf32 refs/tags/0.2.5
+320063c339c94b5c667deeb2bbb5a1878bc21b36 refs/tags/v0.2.2
+73e0d960d36e28755f25f5c17a8d6ea4da3fdb31 refs/tags/v0.2.3
+c4e0c855df1f8737b49edc428d91f04f8973ca28 refs/tags/v0.2.4
+[2025-03-05 02:55:33,309] ERROR - Failed to create GitHub repo 'test25': {"message":"Repository creation failed.","errors":[{"resource":"Repository","code":"custom","field":"name","message":"name already exists on this account"}],"documentation_url":"https://docs.github.com/rest/repos/repos#create-a-repository-for-the-authenticated-user","status":"422"}
+[2025-03-05 02:55:33,313] ERROR - Cannot proceed without GitHub repo creation.
+[2025-03-05 02:55:33,315] INFO - Removing local clone directory: temp_clone_test25_1741143327
+[2025-03-05 02:55:33,408] INFO - Folder temp_clone_test25_1741143327 successfully removed.
+[2025-03-05 02:55:33,409] WARNING - Migration did not complete successfully.
+[2025-03-05 02:55:33,409] INFO - Single migration completed: Failed
+[2025-03-05 03:28:51,183] INFO - Starting bulk migration for 2 repositories...
+[2025-03-05 03:28:51,183] INFO - Starting migration for: https://gitlab.com/Mr_Goldberg/goldberg_emulator -> my-repo1
+[2025-03-05 03:28:51,184] INFO - Cloning from GitLab (bare): https://gitlab.com/Mr_Goldberg/goldberg_emulator
+[2025-03-05 03:28:56,495] INFO - Fetching all refs from GitLab...
+[2025-03-05 03:28:57,581] INFO - Local refs after fetch-all:
+[2025-03-05 03:28:57,729] INFO - 2a659043d3124172596c51076c7e1c8f33d759ea refs/heads/inventory_pr
+475342f0d8b2bd7eb0d93bd7cfdd61e3ae7cda24 refs/heads/master
+e67b12aa5e09e81817b4c2fd2fc9a9035e277d68 refs/heads/test_ci
+b72bd2973578aa65e83cfb42447621676038bf32 refs/tags/0.2.5
+320063c339c94b5c667deeb2bbb5a1878bc21b36 refs/tags/v0.2.2
+73e0d960d36e28755f25f5c17a8d6ea4da3fdb31 refs/tags/v0.2.3
+c4e0c855df1f8737b49edc428d91f04f8973ca28 refs/tags/v0.2.4
+[2025-03-05 03:28:58,011] ERROR - Failed to create GitHub repo 'my-repo1': {"message":"Repository creation failed.","errors":[{"resource":"Repository","code":"custom","field":"name","message":"name already exists on this account"}],"documentation_url":"https://docs.github.com/rest/repos/repos#create-a-repository-for-the-authenticated-user","status":"422"}
+[2025-03-05 03:28:58,014] ERROR - Cannot proceed without GitHub repo creation.
+[2025-03-05 03:28:58,018] INFO - Removing local clone directory: temp_clone_my-repo1_1741145331
+[2025-03-05 03:28:58,128] INFO - Folder temp_clone_my-repo1_1741145331 successfully removed.
+[2025-03-05 03:28:58,129] WARNING - Migration did not complete successfully.
+[2025-03-05 03:28:58,129] INFO - Starting migration for: https://gitlab.com/volian/nala -> my-repo2
+[2025-03-05 03:28:58,130] INFO - Cloning from GitLab (bare): https://gitlab.com/volian/nala
+[2025-03-05 03:29:01,678] INFO - Fetching all refs from GitLab...
+[2025-03-05 03:29:02,888] INFO - Local refs after fetch-all:
+[2025-03-05 03:29:02,936] INFO - 41ab1be78fed890753ffba2f8c989ac2b9b2eede refs/heads/Policy
+fd0ec2630c4e68f97ef12526ba2b796900c30bf0 refs/heads/albedo_dev
+5c5adbc0a75f934d1e951ff4afd216ae375b605e refs/heads/authentication
+46b734db77859d13855ec475ef0e2844b4bd1084 refs/heads/backport
+5cef8a949b341bc6fc07ee6580dfb4a07e96e8ec refs/heads/bootstrap
+65d67d866bb3be9f468c9beccf332269edca701f refs/heads/bpo12-0.15.4
+65cdd762db181de40f5daf2d85662c8d28541ac5 refs/heads/bundle
+ea7b64609f390c411a98533a6efb0996a8e862f8 refs/heads/legacy
+f6fc96c7afcb02b277d5811cfa6703e368cec317 refs/heads/main
+2c170f598791f6c200bce7d67b9b28952df0e941 refs/heads/nala-rs
+228d6c0787ba29197699068948a1aeca5e0e2b97 refs/heads/nala-rs-history
+203e39e798be7a007b1ac87b8931eccc648e5cb8 refs/heads/new-release
+50d7c26a24f92b5f73c04b01ccf404a26e99f99f refs/heads/repo
+a3ee75652516caad18da4959a02bbf13130ac968 refs/tags/v0.1.0
+07aa50c372b66585e06d5fbe3fd20f333a446eb4 refs/tags/v0.1.1
+02758014ab4ee946d6ffcf761810f284ee1d05ff refs/tags/v0.1.2
+585e3dcce817ff8ecf56dc0d02c359d8fcc336d5 refs/tags/v0.1.3
+f0c034ff453f107405cf60899e13d1f083d3fb36 refs/tags/v0.1.4
+b4e8ab85d0555d81f00978157bd222d735d5449f refs/tags/v0.10.0
+866a090ecac8a6294e42947f07556aef50abf3a5 refs/tags/v0.11.0
+8e109d8b081c451eec1ac0f0a3f3f135a8094ac3 refs/tags/v0.11.1
+0c6675a4fd8766bc95ef9ea9e54f12b9ff632718 refs/tags/v0.12.0
+5864e4a510fcf661e46aaad6f1c0b0068f1c8dda refs/tags/v0.12.1
+85aee23c5c13942db9552d38094e7a7a011b4159 refs/tags/v0.12.2
+26c3dd52a796deecde1617a7a6b007b7ff7fb851 refs/tags/v0.12.3
+0c79a87c3a8b775aa81f3da0cafb298984d53f92 refs/tags/v0.13.0
+a3998802c562ba807e8519c1cdcf21d24d6aef65 refs/tags/v0.14.0
+91609aca9b7898adfae277210eeaf2a8b75b18b6 refs/tags/v0.15.0
+8ea67f60367a4115067ff0d830d1ff785a7bf2cd refs/tags/v0.15.1
+282f3170de11ccb8cfeaf4df5252762563201253 refs/tags/v0.15.2
+e38b4a9b1f5588348b786b9c9fb7d312330eb26a refs/tags/v0.15.3
+c19e8c27b19ba28570ae4a6d3dababb265668d09 refs/tags/v0.15.4
+c33ce0a36323e31360f5768a7e20bc101bec709b refs/tags/v0.2.0
+19aa8fbb95a1adf824f7bca1148675ea950c64de refs/tags/v0.2.1
+51ff0b38b6b3447b315cc1393746132023e64b3d refs/tags/v0.3.0
+05b28bf20785bef1f0b8982feaaa08c653b11947 refs/tags/v0.4.0
+c9d1363311e25fa5e58f012a31f32c367bfbfe7e refs/tags/v0.4.1
+82c85b2d7037c2136f258f0140c26c8f2bc434e4 refs/tags/v0.4.2
+c605e8b7ea7e297c1c66be7dbb774f177d49fece refs/tags/v0.5.0
+3b2ceac4be7a5f5117e928bc2cc40a27767b8415 refs/tags/v0.5.1
+30d2ad723b7f9e127899872a06d892bac314757d refs/tags/v0.5.2
+ba9ba16293df03b49c6f139b02e9f361613daa14 refs/tags/v0.6.0
+e58be0733e0d2ac7dd837bead489e89e0293fe27 refs/tags/v0.7.0
+2305a130c2c118adde9025fa60b2c277505e4922 refs/tags/v0.7.1
+c5581abd0477a0e08f7d3a7b1e4214d93b39d88c refs/tags/v0.7.2
+982c8510a0107f05469acafb7ad8f785d2458cef refs/tags/v0.7.3
+4e90891297d9e9fbf77bbd069438416185055ef9 refs/tags/v0.8.0
+7576826a2ee3e765f64afe4cac183435fdfb8152 refs/tags/v0.8.1
+4ac86562f43c664dd3e6bb8f69b3b5efd49deb31 refs/tags/v0.8.2
+b032067300ba5733e358cd69e590b1d0be0f696c refs/tags/v0.9.0
+869662d0cfd4d245752e322f991d4eaf5539bfe6 refs/tags/v0.9.1
+[2025-03-05 03:29:03,179] ERROR - Failed to create GitHub repo 'my-repo2': {"message":"Repository creation failed.","errors":[{"resource":"Repository","code":"custom","field":"name","message":"name already exists on this account"}],"documentation_url":"https://docs.github.com/rest/repos/repos#create-a-repository-for-the-authenticated-user","status":"422"}
+[2025-03-05 03:29:03,182] ERROR - Cannot proceed without GitHub repo creation.
+[2025-03-05 03:29:03,184] INFO - Removing local clone directory: temp_clone_my-repo2_1741145338
+[2025-03-05 03:29:03,409] INFO - Folder temp_clone_my-repo2_1741145338 successfully removed.
+[2025-03-05 03:29:03,409] WARNING - Migration did not complete successfully.
+[2025-03-05 03:29:03,410] INFO - ===== Bulk Migration Report =====
+[2025-03-05 03:29:03,411] INFO - my-repo1: Failed
+[2025-03-05 03:29:03,412] INFO - my-repo2: Failed
+[2025-03-05 03:29:03,412] INFO - =================================
+[2025-03-05 03:33:11,298] INFO - Starting bulk migration for 2 repositories...
+[2025-03-05 03:33:11,298] INFO - Starting migration for: https://gitlab.com/Mr_Goldberg/goldberg_emulator -> my-repo1
+[2025-03-05 03:33:11,299] INFO - Cloning from GitLab (bare): https://gitlab.com/Mr_Goldberg/goldberg_emulator
+[2025-03-05 03:33:15,247] INFO - Fetching all refs from GitLab...
+[2025-03-05 03:33:16,379] INFO - Local refs after fetch-all:
+[2025-03-05 03:33:16,429] INFO - 2a659043d3124172596c51076c7e1c8f33d759ea refs/heads/inventory_pr
+475342f0d8b2bd7eb0d93bd7cfdd61e3ae7cda24 refs/heads/master
+e67b12aa5e09e81817b4c2fd2fc9a9035e277d68 refs/heads/test_ci
+b72bd2973578aa65e83cfb42447621676038bf32 refs/tags/0.2.5
+320063c339c94b5c667deeb2bbb5a1878bc21b36 refs/tags/v0.2.2
+73e0d960d36e28755f25f5c17a8d6ea4da3fdb31 refs/tags/v0.2.3
+c4e0c855df1f8737b49edc428d91f04f8973ca28 refs/tags/v0.2.4
+[2025-03-05 03:33:16,738] ERROR - Failed to create GitHub repo 'my-repo1': {"message":"Repository creation failed.","errors":[{"resource":"Repository","code":"custom","field":"name","message":"name already exists on this account"}],"documentation_url":"https://docs.github.com/rest/repos/repos#create-a-repository-for-the-authenticated-user","status":"422"}
+[2025-03-05 03:33:16,741] ERROR - Cannot proceed without GitHub repo creation.
+[2025-03-05 03:33:16,743] INFO - Removing local clone directory: temp_clone_my-repo1_1741145591
+[2025-03-05 03:33:17,023] INFO - Folder temp_clone_my-repo1_1741145591 successfully removed.
+[2025-03-05 03:33:17,024] WARNING - Migration did not complete successfully.
+[2025-03-05 03:33:17,025] INFO - Starting migration for: https://gitlab.com/volian/nala -> my-repo2
+[2025-03-05 03:33:17,026] INFO - Cloning from GitLab (bare): https://gitlab.com/volian/nala
+[2025-03-05 03:33:20,488] INFO - Fetching all refs from GitLab...
+[2025-03-05 03:33:21,747] INFO - Local refs after fetch-all:
+[2025-03-05 03:33:21,795] INFO - 41ab1be78fed890753ffba2f8c989ac2b9b2eede refs/heads/Policy
+fd0ec2630c4e68f97ef12526ba2b796900c30bf0 refs/heads/albedo_dev
+5c5adbc0a75f934d1e951ff4afd216ae375b605e refs/heads/authentication
+46b734db77859d13855ec475ef0e2844b4bd1084 refs/heads/backport
+5cef8a949b341bc6fc07ee6580dfb4a07e96e8ec refs/heads/bootstrap
+65d67d866bb3be9f468c9beccf332269edca701f refs/heads/bpo12-0.15.4
+65cdd762db181de40f5daf2d85662c8d28541ac5 refs/heads/bundle
+ea7b64609f390c411a98533a6efb0996a8e862f8 refs/heads/legacy
+f6fc96c7afcb02b277d5811cfa6703e368cec317 refs/heads/main
+2c170f598791f6c200bce7d67b9b28952df0e941 refs/heads/nala-rs
+228d6c0787ba29197699068948a1aeca5e0e2b97 refs/heads/nala-rs-history
+203e39e798be7a007b1ac87b8931eccc648e5cb8 refs/heads/new-release
+50d7c26a24f92b5f73c04b01ccf404a26e99f99f refs/heads/repo
+a3ee75652516caad18da4959a02bbf13130ac968 refs/tags/v0.1.0
+07aa50c372b66585e06d5fbe3fd20f333a446eb4 refs/tags/v0.1.1
+02758014ab4ee946d6ffcf761810f284ee1d05ff refs/tags/v0.1.2
+585e3dcce817ff8ecf56dc0d02c359d8fcc336d5 refs/tags/v0.1.3
+f0c034ff453f107405cf60899e13d1f083d3fb36 refs/tags/v0.1.4
+b4e8ab85d0555d81f00978157bd222d735d5449f refs/tags/v0.10.0
+866a090ecac8a6294e42947f07556aef50abf3a5 refs/tags/v0.11.0
+8e109d8b081c451eec1ac0f0a3f3f135a8094ac3 refs/tags/v0.11.1
+0c6675a4fd8766bc95ef9ea9e54f12b9ff632718 refs/tags/v0.12.0
+5864e4a510fcf661e46aaad6f1c0b0068f1c8dda refs/tags/v0.12.1
+85aee23c5c13942db9552d38094e7a7a011b4159 refs/tags/v0.12.2
+26c3dd52a796deecde1617a7a6b007b7ff7fb851 refs/tags/v0.12.3
+0c79a87c3a8b775aa81f3da0cafb298984d53f92 refs/tags/v0.13.0
+a3998802c562ba807e8519c1cdcf21d24d6aef65 refs/tags/v0.14.0
+91609aca9b7898adfae277210eeaf2a8b75b18b6 refs/tags/v0.15.0
+8ea67f60367a4115067ff0d830d1ff785a7bf2cd refs/tags/v0.15.1
+282f3170de11ccb8cfeaf4df5252762563201253 refs/tags/v0.15.2
+e38b4a9b1f5588348b786b9c9fb7d312330eb26a refs/tags/v0.15.3
+c19e8c27b19ba28570ae4a6d3dababb265668d09 refs/tags/v0.15.4
+c33ce0a36323e31360f5768a7e20bc101bec709b refs/tags/v0.2.0
+19aa8fbb95a1adf824f7bca1148675ea950c64de refs/tags/v0.2.1
+51ff0b38b6b3447b315cc1393746132023e64b3d refs/tags/v0.3.0
+05b28bf20785bef1f0b8982feaaa08c653b11947 refs/tags/v0.4.0
+c9d1363311e25fa5e58f012a31f32c367bfbfe7e refs/tags/v0.4.1
+82c85b2d7037c2136f258f0140c26c8f2bc434e4 refs/tags/v0.4.2
+c605e8b7ea7e297c1c66be7dbb774f177d49fece refs/tags/v0.5.0
+3b2ceac4be7a5f5117e928bc2cc40a27767b8415 refs/tags/v0.5.1
+30d2ad723b7f9e127899872a06d892bac314757d refs/tags/v0.5.2
+ba9ba16293df03b49c6f139b02e9f361613daa14 refs/tags/v0.6.0
+e58be0733e0d2ac7dd837bead489e89e0293fe27 refs/tags/v0.7.0
+2305a130c2c118adde9025fa60b2c277505e4922 refs/tags/v0.7.1
+c5581abd0477a0e08f7d3a7b1e4214d93b39d88c refs/tags/v0.7.2
+982c8510a0107f05469acafb7ad8f785d2458cef refs/tags/v0.7.3
+4e90891297d9e9fbf77bbd069438416185055ef9 refs/tags/v0.8.0
+7576826a2ee3e765f64afe4cac183435fdfb8152 refs/tags/v0.8.1
+4ac86562f43c664dd3e6bb8f69b3b5efd49deb31 refs/tags/v0.8.2
+b032067300ba5733e358cd69e590b1d0be0f696c refs/tags/v0.9.0
+869662d0cfd4d245752e322f991d4eaf5539bfe6 refs/tags/v0.9.1
+[2025-03-05 03:33:22,061] ERROR - Failed to create GitHub repo 'my-repo2': {"message":"Repository creation failed.","errors":[{"resource":"Repository","code":"custom","field":"name","message":"name already exists on this account"}],"documentation_url":"https://docs.github.com/rest/repos/repos#create-a-repository-for-the-authenticated-user","status":"422"}
+[2025-03-05 03:33:22,063] ERROR - Cannot proceed without GitHub repo creation.
+[2025-03-05 03:33:22,065] INFO - Removing local clone directory: temp_clone_my-repo2_1741145597
+[2025-03-05 03:33:22,148] INFO - Folder temp_clone_my-repo2_1741145597 successfully removed.
+[2025-03-05 03:33:22,149] WARNING - Migration did not complete successfully.
+[2025-03-05 03:33:22,149] INFO - ===== Bulk Migration Report =====
+[2025-03-05 03:33:22,150] INFO - my-repo1: Failed
+[2025-03-05 03:33:22,150] INFO - my-repo2: Failed
+[2025-03-05 03:33:22,151] INFO - =================================
+[2025-03-05 03:34:48,952] INFO - Starting bulk migration for 2 repositories...
+[2025-03-05 03:34:48,953] INFO - Starting migration for: https://gitlab.com/Mr_Goldberg/goldberg_emulator -> my-repo1
+[2025-03-05 03:34:48,953] INFO - Cloning from GitLab (bare): https://gitlab.com/Mr_Goldberg/goldberg_emulator
+[2025-03-05 03:34:51,865] INFO - Fetching all refs from GitLab...
+[2025-03-05 03:34:52,956] INFO - Local refs after fetch-all:
+[2025-03-05 03:34:52,978] INFO - 2a659043d3124172596c51076c7e1c8f33d759ea refs/heads/inventory_pr
+475342f0d8b2bd7eb0d93bd7cfdd61e3ae7cda24 refs/heads/master
+e67b12aa5e09e81817b4c2fd2fc9a9035e277d68 refs/heads/test_ci
+b72bd2973578aa65e83cfb42447621676038bf32 refs/tags/0.2.5
+320063c339c94b5c667deeb2bbb5a1878bc21b36 refs/tags/v0.2.2
+73e0d960d36e28755f25f5c17a8d6ea4da3fdb31 refs/tags/v0.2.3
+c4e0c855df1f8737b49edc428d91f04f8973ca28 refs/tags/v0.2.4
+[2025-03-05 03:34:53,309] ERROR - Failed to create GitHub repo 'my-repo1': {"message":"Repository creation failed.","errors":[{"resource":"Repository","code":"custom","field":"name","message":"name already exists on this account"}],"documentation_url":"https://docs.github.com/rest/repos/repos#create-a-repository-for-the-authenticated-user","status":"422"}
+[2025-03-05 03:34:53,312] ERROR - Cannot proceed without GitHub repo creation.
+[2025-03-05 03:34:53,314] INFO - Removing local clone directory: temp_clone_my-repo1_1741145688
+[2025-03-05 03:34:53,334] INFO - Folder temp_clone_my-repo1_1741145688 successfully removed.
+[2025-03-05 03:34:53,336] WARNING - Migration did not complete successfully.
+[2025-03-05 03:34:53,341] INFO - Starting migration for: https://gitlab.com/volian/nala -> my-repo2
+[2025-03-05 03:34:53,348] INFO - Cloning from GitLab (bare): https://gitlab.com/volian/nala
+[2025-03-05 03:34:55,528] INFO - Fetching all refs from GitLab...
+[2025-03-05 03:34:56,462] INFO - Local refs after fetch-all:
+[2025-03-05 03:34:56,475] INFO - 41ab1be78fed890753ffba2f8c989ac2b9b2eede refs/heads/Policy
+fd0ec2630c4e68f97ef12526ba2b796900c30bf0 refs/heads/albedo_dev
+5c5adbc0a75f934d1e951ff4afd216ae375b605e refs/heads/authentication
+46b734db77859d13855ec475ef0e2844b4bd1084 refs/heads/backport
+5cef8a949b341bc6fc07ee6580dfb4a07e96e8ec refs/heads/bootstrap
+65d67d866bb3be9f468c9beccf332269edca701f refs/heads/bpo12-0.15.4
+65cdd762db181de40f5daf2d85662c8d28541ac5 refs/heads/bundle
+ea7b64609f390c411a98533a6efb0996a8e862f8 refs/heads/legacy
+f6fc96c7afcb02b277d5811cfa6703e368cec317 refs/heads/main
+2c170f598791f6c200bce7d67b9b28952df0e941 refs/heads/nala-rs
+228d6c0787ba29197699068948a1aeca5e0e2b97 refs/heads/nala-rs-history
+203e39e798be7a007b1ac87b8931eccc648e5cb8 refs/heads/new-release
+50d7c26a24f92b5f73c04b01ccf404a26e99f99f refs/heads/repo
+a3ee75652516caad18da4959a02bbf13130ac968 refs/tags/v0.1.0
+07aa50c372b66585e06d5fbe3fd20f333a446eb4 refs/tags/v0.1.1
+02758014ab4ee946d6ffcf761810f284ee1d05ff refs/tags/v0.1.2
+585e3dcce817ff8ecf56dc0d02c359d8fcc336d5 refs/tags/v0.1.3
+f0c034ff453f107405cf60899e13d1f083d3fb36 refs/tags/v0.1.4
+b4e8ab85d0555d81f00978157bd222d735d5449f refs/tags/v0.10.0
+866a090ecac8a6294e42947f07556aef50abf3a5 refs/tags/v0.11.0
+8e109d8b081c451eec1ac0f0a3f3f135a8094ac3 refs/tags/v0.11.1
+0c6675a4fd8766bc95ef9ea9e54f12b9ff632718 refs/tags/v0.12.0
+5864e4a510fcf661e46aaad6f1c0b0068f1c8dda refs/tags/v0.12.1
+85aee23c5c13942db9552d38094e7a7a011b4159 refs/tags/v0.12.2
+26c3dd52a796deecde1617a7a6b007b7ff7fb851 refs/tags/v0.12.3
+0c79a87c3a8b775aa81f3da0cafb298984d53f92 refs/tags/v0.13.0
+a3998802c562ba807e8519c1cdcf21d24d6aef65 refs/tags/v0.14.0
+91609aca9b7898adfae277210eeaf2a8b75b18b6 refs/tags/v0.15.0
+8ea67f60367a4115067ff0d830d1ff785a7bf2cd refs/tags/v0.15.1
+282f3170de11ccb8cfeaf4df5252762563201253 refs/tags/v0.15.2
+e38b4a9b1f5588348b786b9c9fb7d312330eb26a refs/tags/v0.15.3
+c19e8c27b19ba28570ae4a6d3dababb265668d09 refs/tags/v0.15.4
+c33ce0a36323e31360f5768a7e20bc101bec709b refs/tags/v0.2.0
+19aa8fbb95a1adf824f7bca1148675ea950c64de refs/tags/v0.2.1
+51ff0b38b6b3447b315cc1393746132023e64b3d refs/tags/v0.3.0
+05b28bf20785bef1f0b8982feaaa08c653b11947 refs/tags/v0.4.0
+c9d1363311e25fa5e58f012a31f32c367bfbfe7e refs/tags/v0.4.1
+82c85b2d7037c2136f258f0140c26c8f2bc434e4 refs/tags/v0.4.2
+c605e8b7ea7e297c1c66be7dbb774f177d49fece refs/tags/v0.5.0
+3b2ceac4be7a5f5117e928bc2cc40a27767b8415 refs/tags/v0.5.1
+30d2ad723b7f9e127899872a06d892bac314757d refs/tags/v0.5.2
+ba9ba16293df03b49c6f139b02e9f361613daa14 refs/tags/v0.6.0
+e58be0733e0d2ac7dd837bead489e89e0293fe27 refs/tags/v0.7.0
+2305a130c2c118adde9025fa60b2c277505e4922 refs/tags/v0.7.1
+c5581abd0477a0e08f7d3a7b1e4214d93b39d88c refs/tags/v0.7.2
+982c8510a0107f05469acafb7ad8f785d2458cef refs/tags/v0.7.3
+4e90891297d9e9fbf77bbd069438416185055ef9 refs/tags/v0.8.0
+7576826a2ee3e765f64afe4cac183435fdfb8152 refs/tags/v0.8.1
+4ac86562f43c664dd3e6bb8f69b3b5efd49deb31 refs/tags/v0.8.2
+b032067300ba5733e358cd69e590b1d0be0f696c refs/tags/v0.9.0
+869662d0cfd4d245752e322f991d4eaf5539bfe6 refs/tags/v0.9.1
+[2025-03-05 03:34:56,823] ERROR - Failed to create GitHub repo 'my-repo2': {"message":"Repository creation failed.","errors":[{"resource":"Repository","code":"custom","field":"name","message":"name already exists on this account"}],"documentation_url":"https://docs.github.com/rest/repos/repos#create-a-repository-for-the-authenticated-user","status":"422"}
+[2025-03-05 03:34:56,826] ERROR - Cannot proceed without GitHub repo creation.
+[2025-03-05 03:34:56,830] INFO - Removing local clone directory: temp_clone_my-repo2_1741145693
+[2025-03-05 03:34:56,850] INFO - Folder temp_clone_my-repo2_1741145693 successfully removed.
+[2025-03-05 03:34:56,852] WARNING - Migration did not complete successfully.
+[2025-03-05 03:34:56,855] INFO - ===== Bulk Migration Report =====
+[2025-03-05 03:34:56,857] INFO - my-repo1: Failed
+[2025-03-05 03:34:56,862] INFO - my-repo2: Failed
+[2025-03-05 03:34:56,866] INFO - =================================
+[2025-03-05 03:35:34,688] INFO - Starting bulk migration for 2 repositories...
+[2025-03-05 03:35:34,689] INFO - Starting migration for: https://gitlab.com/Mr_Goldberg/goldberg_emulator -> my-repo1
+[2025-03-05 03:35:34,690] INFO - Cloning from GitLab (bare): https://gitlab.com/Mr_Goldberg/goldberg_emulator
+[2025-03-05 03:35:37,119] INFO - Fetching all refs from GitLab...
+[2025-03-05 03:35:38,230] INFO - Local refs after fetch-all:
+[2025-03-05 03:35:38,242] INFO - 2a659043d3124172596c51076c7e1c8f33d759ea refs/heads/inventory_pr
+475342f0d8b2bd7eb0d93bd7cfdd61e3ae7cda24 refs/heads/master
+e67b12aa5e09e81817b4c2fd2fc9a9035e277d68 refs/heads/test_ci
+b72bd2973578aa65e83cfb42447621676038bf32 refs/tags/0.2.5
+320063c339c94b5c667deeb2bbb5a1878bc21b36 refs/tags/v0.2.2
+73e0d960d36e28755f25f5c17a8d6ea4da3fdb31 refs/tags/v0.2.3
+c4e0c855df1f8737b49edc428d91f04f8973ca28 refs/tags/v0.2.4
+[2025-03-05 03:35:38,600] ERROR - Failed to create GitHub repo 'my-repo1': {"message":"Repository creation failed.","errors":[{"resource":"Repository","code":"custom","field":"name","message":"name already exists on this account"}],"documentation_url":"https://docs.github.com/rest/repos/repos#create-a-repository-for-the-authenticated-user","status":"422"}
+[2025-03-05 03:35:38,604] ERROR - Cannot proceed without GitHub repo creation.
+[2025-03-05 03:35:38,609] INFO - Removing local clone directory: temp_clone_my-repo1_1741145734
+[2025-03-05 03:35:38,631] INFO - Folder temp_clone_my-repo1_1741145734 successfully removed.
+[2025-03-05 03:35:38,638] WARNING - Migration did not complete successfully.
+[2025-03-05 03:35:38,641] INFO - Starting migration for: https://gitlab.com/volian/nala -> my-repo2
+[2025-03-05 03:35:38,645] INFO - Cloning from GitLab (bare): https://gitlab.com/volian/nala
+[2025-03-05 03:35:40,651] INFO - Fetching all refs from GitLab...
+[2025-03-05 03:35:41,650] INFO - Local refs after fetch-all:
+[2025-03-05 03:35:41,664] INFO - 41ab1be78fed890753ffba2f8c989ac2b9b2eede refs/heads/Policy
+fd0ec2630c4e68f97ef12526ba2b796900c30bf0 refs/heads/albedo_dev
+5c5adbc0a75f934d1e951ff4afd216ae375b605e refs/heads/authentication
+46b734db77859d13855ec475ef0e2844b4bd1084 refs/heads/backport
+5cef8a949b341bc6fc07ee6580dfb4a07e96e8ec refs/heads/bootstrap
+65d67d866bb3be9f468c9beccf332269edca701f refs/heads/bpo12-0.15.4
+65cdd762db181de40f5daf2d85662c8d28541ac5 refs/heads/bundle
+ea7b64609f390c411a98533a6efb0996a8e862f8 refs/heads/legacy
+f6fc96c7afcb02b277d5811cfa6703e368cec317 refs/heads/main
+2c170f598791f6c200bce7d67b9b28952df0e941 refs/heads/nala-rs
+228d6c0787ba29197699068948a1aeca5e0e2b97 refs/heads/nala-rs-history
+203e39e798be7a007b1ac87b8931eccc648e5cb8 refs/heads/new-release
+50d7c26a24f92b5f73c04b01ccf404a26e99f99f refs/heads/repo
+a3ee75652516caad18da4959a02bbf13130ac968 refs/tags/v0.1.0
+07aa50c372b66585e06d5fbe3fd20f333a446eb4 refs/tags/v0.1.1
+02758014ab4ee946d6ffcf761810f284ee1d05ff refs/tags/v0.1.2
+585e3dcce817ff8ecf56dc0d02c359d8fcc336d5 refs/tags/v0.1.3
+f0c034ff453f107405cf60899e13d1f083d3fb36 refs/tags/v0.1.4
+b4e8ab85d0555d81f00978157bd222d735d5449f refs/tags/v0.10.0
+866a090ecac8a6294e42947f07556aef50abf3a5 refs/tags/v0.11.0
+8e109d8b081c451eec1ac0f0a3f3f135a8094ac3 refs/tags/v0.11.1
+0c6675a4fd8766bc95ef9ea9e54f12b9ff632718 refs/tags/v0.12.0
+5864e4a510fcf661e46aaad6f1c0b0068f1c8dda refs/tags/v0.12.1
+85aee23c5c13942db9552d38094e7a7a011b4159 refs/tags/v0.12.2
+26c3dd52a796deecde1617a7a6b007b7ff7fb851 refs/tags/v0.12.3
+0c79a87c3a8b775aa81f3da0cafb298984d53f92 refs/tags/v0.13.0
+a3998802c562ba807e8519c1cdcf21d24d6aef65 refs/tags/v0.14.0
+91609aca9b7898adfae277210eeaf2a8b75b18b6 refs/tags/v0.15.0
+8ea67f60367a4115067ff0d830d1ff785a7bf2cd refs/tags/v0.15.1
+282f3170de11ccb8cfeaf4df5252762563201253 refs/tags/v0.15.2
+e38b4a9b1f5588348b786b9c9fb7d312330eb26a refs/tags/v0.15.3
+c19e8c27b19ba28570ae4a6d3dababb265668d09 refs/tags/v0.15.4
+c33ce0a36323e31360f5768a7e20bc101bec709b refs/tags/v0.2.0
+19aa8fbb95a1adf824f7bca1148675ea950c64de refs/tags/v0.2.1
+51ff0b38b6b3447b315cc1393746132023e64b3d refs/tags/v0.3.0
+05b28bf20785bef1f0b8982feaaa08c653b11947 refs/tags/v0.4.0
+c9d1363311e25fa5e58f012a31f32c367bfbfe7e refs/tags/v0.4.1
+82c85b2d7037c2136f258f0140c26c8f2bc434e4 refs/tags/v0.4.2
+c605e8b7ea7e297c1c66be7dbb774f177d49fece refs/tags/v0.5.0
+3b2ceac4be7a5f5117e928bc2cc40a27767b8415 refs/tags/v0.5.1
+30d2ad723b7f9e127899872a06d892bac314757d refs/tags/v0.5.2
+ba9ba16293df03b49c6f139b02e9f361613daa14 refs/tags/v0.6.0
+e58be0733e0d2ac7dd837bead489e89e0293fe27 refs/tags/v0.7.0
+2305a130c2c118adde9025fa60b2c277505e4922 refs/tags/v0.7.1
+c5581abd0477a0e08f7d3a7b1e4214d93b39d88c refs/tags/v0.7.2
+982c8510a0107f05469acafb7ad8f785d2458cef refs/tags/v0.7.3
+4e90891297d9e9fbf77bbd069438416185055ef9 refs/tags/v0.8.0
+7576826a2ee3e765f64afe4cac183435fdfb8152 refs/tags/v0.8.1
+4ac86562f43c664dd3e6bb8f69b3b5efd49deb31 refs/tags/v0.8.2
+b032067300ba5733e358cd69e590b1d0be0f696c refs/tags/v0.9.0
+869662d0cfd4d245752e322f991d4eaf5539bfe6 refs/tags/v0.9.1
+[2025-03-05 03:35:41,966] ERROR - Failed to create GitHub repo 'my-repo2': {"message":"Repository creation failed.","errors":[{"resource":"Repository","code":"custom","field":"name","message":"name already exists on this account"}],"documentation_url":"https://docs.github.com/rest/repos/repos#create-a-repository-for-the-authenticated-user","status":"422"}
+[2025-03-05 03:35:41,969] ERROR - Cannot proceed without GitHub repo creation.
+[2025-03-05 03:35:41,974] INFO - Removing local clone directory: temp_clone_my-repo2_1741145738
+[2025-03-05 03:35:41,987] INFO - Folder temp_clone_my-repo2_1741145738 successfully removed.
+[2025-03-05 03:35:41,991] WARNING - Migration did not complete successfully.
+[2025-03-05 03:35:41,995] INFO - ===== Bulk Migration Report =====
+[2025-03-05 03:35:42,000] INFO - my-repo1: Failed
+[2025-03-05 03:35:42,007] INFO - my-repo2: Failed
+[2025-03-05 03:35:42,010] INFO - =================================

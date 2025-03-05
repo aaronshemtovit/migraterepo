@@ -1,0 +1,2 @@
+https://gitlab.com/Mr_Goldberg/goldberg_emulator, my-repo1
+https://gitlab.com/volian/nala, my-repo2
